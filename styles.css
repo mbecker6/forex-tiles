@@ -1,15 +1,12 @@
-.flex-parent{
+.widgets-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
     margin-right: 20px;
 }
-.tradingview-widget-container{
+.forex-widget{
     min-width: 500px;
-    flex: 1;
-}
-
-.tradingview-widget-container > div {
     height: 300px;
+    flex: 1;
 }
